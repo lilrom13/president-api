@@ -1,10 +1,19 @@
 {
-  "name"         : "node-skeleton",
-  "version"      : "0.0.0",
-  "description"  : "NodeJs + express + angularJs skeleton.",
-  "main"         : "app.js",
-  "author"       : "OriW",
-  "dependencies" : {
-    "express"         : "~4.6.1"
+  "name": "node-skeleton",
+  "version": "0.0.0",
+  "description": "NodeJs + express + angularJs skeleton.",
+  "main": "app.js",
+  "author": "",
+  "dependencies": {
+    "cors": "~2.7.1",
+    "express": "~4.6.1",
+    "mongoose": "^4.5.8",
+    "body-parser": "~1.13.1"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-symlink": "~2.1.1",
+    "gulp-util": "~3.0.6",
+    "run-sequence": "~1.1.1"
   }
 }
