@@ -7,7 +7,7 @@ var cors = require('cors');
 
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/president');
+mongoose.connect('mongodb://<heroku_9rp7v59d>:<totodu13>@ds133358.mlab.com:33358/heroku_9rp7v59d');
 
 var part = require('./routes/part');
 
