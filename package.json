@@ -4,6 +4,9 @@
   "description": "NodeJs + express + angularJs skeleton.",
   "main": "app.js",
   "author": "",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "cors": "~2.7.1",
     "express": "~4.6.1",
